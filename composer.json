@@ -1,0 +1,41 @@
+{
+    "name": "piyushphpdots/craft-course-booking",
+    "description": "Course Booking System",
+    "type": "craft-plugin",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "course booking"
+    ],
+    "support": {
+        "docs": "https://github.com/piyushphpdots/craft-course-booking/blob/master/README.md",
+        "issues": "https://github.com/piyushphpdots/craft-course-booking/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHPDots Technologies",
+            "homepage": "https://phpdots.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "piyushphpdots\\coursebooking\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Course Booking",
+        "handle": "course-booking",
+        "hasCpSettings": true,
+        "hasCpSection": true,
+        "developer": "PHPDots Technologies",
+        "developerUrl": "https://phpdots.com",
+        "changelogUrl": "https://raw.githubusercontent.com/piyushphpdots/craft-course-management/master/CHANGELOG.md",
+        "class": "piyushphpdots\\coursebooking\\CourseBooking"
+    }
+}
